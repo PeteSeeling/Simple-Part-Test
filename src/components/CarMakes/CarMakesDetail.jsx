@@ -1,5 +1,7 @@
 import { carBrands } from "../../CarMakesData";
 
+
+//Dynmaically renders car brands with images and brand name.
 export default function CarMakesDetail(){
    
     return(

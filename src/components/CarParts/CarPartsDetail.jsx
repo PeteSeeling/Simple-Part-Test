@@ -1,5 +1,7 @@
 import { carParts } from "../../CarPartsData";
 
+
+//Dynamically renders list of car parts category names with images.
 export default function CarPartsDetail(){
     console.log({ carParts })
     return(

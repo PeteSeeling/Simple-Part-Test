@@ -53,19 +53,19 @@ export const carParts = [
     },
     {
         partName: 'Maintenance',
-        partImage: './images/images/parts/tiles/maintenance.jpg'
+        partImage: './images/parts/tiles/maintenance.jpg'
     },
     {
         partName: 'Oil System',
-        partImage: './images/images/parts/tiles/oil-system.jpg'
+        partImage: './images/parts/tiles/oil-system.jpg'
     },
     {
         partName: 'Performance & Handling',
-        partImage: './images/images/parts/tiles/performance-handling.jpg'
+        partImage: './images/parts/tiles/performance-handling.jpg'
     },
     {
         partName: 'Suspension',
-        partImage: './images/images/parts/tiles/suspension.jpg'
+        partImage: './images/parts/tiles/suspension.jpg'
     },
     {
         partName: 'Transmission, Gearbox and Clutch',
