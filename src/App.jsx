@@ -1,5 +1,6 @@
 import Header from "./views/Header/Header";
 import Main from "./views/Main/Main";
+import Footer from "./views/Footer/Footer";
 
 
 export default function App() {
@@ -9,7 +10,7 @@ export default function App() {
     <hr></hr>
   <Main />
     <hr></hr>
-    <h3>footer</h3>
+    <Footer />
     </>
   )
 }
