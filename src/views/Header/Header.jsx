@@ -1,6 +1,7 @@
 
 
 export default function Header(){
+
     return(
         <>
         <div>
@@ -18,8 +19,14 @@ export default function Header(){
                 <img src={require('../../../public/images/icons/header-phone.png')} />
                 <p>866.467.1776</p>
             </span>
-            <span>
+        </section>
 
+        <section>
+            <span>
+                <h4>Parts</h4>
+                <img src={require('../../../public/images/icons/default/arrow-down.png')} />
+                <h4> About Us</h4>
+                <img alt='arrow-right' src ={require('../../../public/images/icons/arrow-right.png')}/>
             </span>
         </section>
         </div>
