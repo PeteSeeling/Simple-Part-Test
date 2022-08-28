@@ -29,11 +29,18 @@ export default function Header(){
                 <img alt='arrow-right' src ={require('../../../public/images/icons/arrow-right.png')}/>
             </span>
         </section>
+
+        <section>
+            <span>
+                <input placeholder='Search by  Keywords, Part Numbers or Vin'>
+                </input>
+                <button>GO</button>
+                <h4>Select Your Vehicle</h4>
+                <img src={require('../../../public/images/icons/arrow-box.png')} />
+                <img src={require('../../../public/images/icons/cart-empty.png')} />
+            </span>
+        </section>
         </div>
-        
-        
-        
         </>
     )
-
 }
