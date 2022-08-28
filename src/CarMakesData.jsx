@@ -3,18 +3,18 @@
 export const carBrands =[
     {
         brand: 'Austin Healey',
-        image: '../../assets/images/parts/tiles/austin-healey.png'
+        image_url: './images/parts/tiles/austin-healey.png'
     },
     {
         brand: 'Jaguar',
-        image:'../../assets/images/parts/tiles/jaguar.png'
+        image_url:'./images/parts/tiles/jaguar.png'
     },
     {
         brand: 'MG',
-        image: '../../assets/images/parts/tiles/mg.png'
+        image_url: './images/parts/tiles/mg.png'
     },
     {
         brand: 'Triumph',
-        image: '../../assets/images/parts/tiles/triumph.png'
+        image_url: './images/parts/tiles/triumph.png'
     },
 ]

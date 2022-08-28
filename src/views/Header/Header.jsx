@@ -36,7 +36,7 @@ export default function Header(){
                 </input>
                 <button>GO</button>
                 <h4>Select Your Vehicle</h4>
-                <img src={require('../../../public/images/icons/arrow-box.png')} />
+                <img src={require('../../../public/images/parts/tiles/austin-healey.png')} />
                 <img src={require('../../../public/images/icons/cart-empty.png')} />
             </span>
         </section>

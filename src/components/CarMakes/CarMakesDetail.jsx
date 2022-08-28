@@ -5,7 +5,14 @@ export default function CarMakesDetail(){
     return(
         <>
         <div>
-            <h1>4</h1>
+         {carBrands.map((make, i) => {
+             return(
+                 <div key={i}>
+                     <h2>{make.brand}</h2>
+                     <img src={make.image_url} />
+                     </div>
+             )
+         })}
         </div>
         
         </>
