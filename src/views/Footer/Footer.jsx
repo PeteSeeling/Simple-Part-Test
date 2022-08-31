@@ -2,8 +2,8 @@
 //Footer with list and logo image at bottom.
 export default function Footer(){
     return(
-        <div>
-            <section>
+        <div className='blueBox'>
+            <section className='footerList'>
                 <h4>About</h4>
                 <ul>
                     <p></p>
@@ -28,6 +28,7 @@ export default function Footer(){
                 <p>My Information</p>
                 <p>Testimonials</p>
                 </ul>
+                <hr></hr>
             </section>
 
             <section>
@@ -40,10 +41,9 @@ export default function Footer(){
                 <p>© 2021 EnglishParts.com</p>
             </section>
 
-            <section>
+            <section className='footerBottom'>
                 <img src={require('../../../public/images/logos/simplepart-logo-dark.png')} />
             </section>
-
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import styles from '../../styles.less'
+
 
 export default function Header(){
 
@@ -10,12 +10,14 @@ export default function Header(){
             <p>Browse our complete catalog of OEM and licensed British heritage parts for your classic British automobile. | Kalam</p>
         </span>
         </section>
+
 <div className='headerBody'>
         <section className='headerBodyUpper'>
+
         <img className='britishFlag' src={require('../../../public/images/icons/british-flag.png')} />
             <h2 >English Parts.com</h2>
-            <div className='partsMenu'>
 
+            <div className='partsMenu'>
             <button className='partsButton'>Parts
                 <img src={require('../../../public/images/icons/default/arrow-down.png')} /></button>
 
@@ -27,7 +29,7 @@ export default function Header(){
 
         <section className='headerLower'>
             <span className='row'>
-
+                
                 <button className='iconButton'>
                    <img classname='icon' src={require('../../../public/images/icons/header-location.png')} />
                 <p>5850 Stadium Dr, Kalamazoo, MI 49009</p>

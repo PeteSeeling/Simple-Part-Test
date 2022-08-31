@@ -6,13 +6,15 @@ export default function CarPartsDetail(){
  
     return(
         <>
-        <div>
+        <div className="carPart">
+            <h2 className="h2CarPart">Select A Category</h2>
+            <hr></hr>
             {carParts.map((part, i) => {
                 return(
                     <div key={i}>
-                        <section>
+                        <section className="carPartDetail">
                             <h3>{part.partName}</h3>
-                            <img src={part.partImage} />
+                            <img clasname='carPartImage' src={part.partImage} />
                             <p>See More</p>
                         </section>
                         </div>
