@@ -7,13 +7,12 @@ export default function Header(){
         <div className='header'>
         <section>
         <span className='headerTop' >
-            <p>Browse our complete catalog of OEM and licensed British heritage parts for your classic British automobile. | Kalam</p>
+        <p>Browse our complete catalog of OEM and licensed British heritage parts for your classic British automobile. | Kalam</p>
         </span>
         </section>
 
 <div className='headerBody'>
         <section className='headerBodyUpper'>
-
         <img className='britishFlag' src={require('../../../public/images/icons/british-flag.png')} />
             <h2 >English Parts.com</h2>
 

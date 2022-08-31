@@ -7,6 +7,7 @@ export default function CarMakesDetail(){
         <>
         <h2>Select A Make</h2>
         <hr></hr>
+
         <div className="carMake">
          {carBrands.map((make, i) => {
              return(

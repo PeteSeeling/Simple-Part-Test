@@ -1,6 +1,5 @@
 import { carParts } from "../../CarPartsData";
 
-
 //Dynamically renders list of car parts category names with images.
 export default function CarPartsDetail(){
  
@@ -10,6 +9,7 @@ export default function CarPartsDetail(){
             <h2 className="h2CarPart">Select A Category</h2>
             <hr></hr>
             {carParts.map((part, i) => {
+                
                 return(
                     <div key={i}>
                         <section className="carPartDetail">
