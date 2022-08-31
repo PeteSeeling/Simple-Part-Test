@@ -51,8 +51,16 @@ export default function Header(){
                 <input className='input' placeholder='Search by  Keywords, Part Numbers or Vin'>
                 </input>
                 <button className='searchButton'>GO</button>
-                <h4>Select Your Vehicle</h4>
-                <img src={require('../../../public/images/icons/cart-empty.png')} />
+            
+                <button className='selectButton'>
+                Select Your Vehicle
+                <img src={require('../../../public/images/icons/default/arrow-down.png')} />
+                </button>
+
+                <button className='cartButton'>
+                <img src={require('../../../public/images/icons/cart-full.png')} />
+                0
+                </button>
             </span>
         </section>
         </div>
